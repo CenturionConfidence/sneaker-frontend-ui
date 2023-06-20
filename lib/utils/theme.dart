@@ -10,7 +10,7 @@ class AppTheme {
       color: primaryColor,
     ),
     displayLarge: GoogleFonts.kumbhSans(
-      fontSize: 25,
+      fontSize: 30,
       fontWeight: FontWeight.w700,
       color: Colors.black,
     ),
@@ -28,11 +28,10 @@ class AppTheme {
   );
 
   static AppBarTheme appBarTheme = AppBarTheme(
-    backgroundColor: Colors.white,
-    foregroundColor: Colors.black,
-    elevation: 0,
-    titleTextStyle: lightAppTheme.displayLarge
-  );
+      backgroundColor: Colors.white,
+      foregroundColor: Colors.black,
+      elevation: 0,
+      titleTextStyle: lightAppTheme.displayLarge);
 
   static ThemeData light() {
     return ThemeData(
